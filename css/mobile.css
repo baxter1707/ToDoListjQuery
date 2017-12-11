@@ -1,0 +1,35 @@
+
+.completed-list div {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  border: solid;
+  border-color: black;
+}
+
+  .pending-list div {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    border: solid;
+    border-color: black;
+
+
+}
+.delete-button {
+width:30%;
+height:50%;
+}
+
+.check-box {
+  width: 20%;
+  height: 50%
+}
