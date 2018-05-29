@@ -6,7 +6,14 @@ let ulCompleted=$("#completed-list")
 
 $("#addTaskButton").click(function(){
 let userInput = $("#toDoItem").val()
-let taskItem=$("<div>").append($("<input type=checkbox>").addClass("check-box")).append($("<li>").html(userInput)).append($("<button>").addClass("delete-Button").html("Delete"))
+let taskItem=$("<div>")
+.append($("<input type=checkbox>")
+.addClass("check-box"))
+.append($("<li>")
+.html(userInput))
+.append($("<button>")
+.addClass("delete-Button")
+.html("Delete"))
 ul1.append(taskItem)
 
 
